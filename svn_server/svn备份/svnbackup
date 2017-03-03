@@ -1,0 +1,8 @@
+/var/log/svnbackup.log {
+    missingok
+    notifempty
+    size 1M
+    weekly
+    rotate 5
+    create 0600 root root
+}

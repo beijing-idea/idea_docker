@@ -1,0 +1,10 @@
+
+<Location /repos>
+   DAV svn
+   SVNParentPath /var/www/svn
+   AuthType Basic
+   AuthName "Authorization SVN"
+   AuthzSVNAccessFile /var/www/svn/authz
+   AuthUserFile /var/www/svn/passwd
+   Require valid-user
+</Location>
